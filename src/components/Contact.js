@@ -383,7 +383,7 @@ export default function Contact() {
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
                   >
-                    positive
+                    怒り
                   </Typography>
                 )}
                 {formInput.feeling === "2" && (
@@ -391,7 +391,7 @@ export default function Contact() {
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
                   >
-                    Cheer up
+                    悲しい
                   </Typography>
                 )}
                 {formInput.feeling === "3" && (
@@ -399,7 +399,127 @@ export default function Contact() {
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
                   >
-                    Amplification
+                    穏やか
+                  </Typography>
+                )}
+                {formInput.feeling === "4" && (
+                  <Typography
+                    variant="body2"
+                    style={{ fontWeight: "bold", margin: "10px" }}
+                  >
+                    エネルギッシュ
+                  </Typography>
+                )}
+                {formInput.feeling === "5" && (
+                  <Typography
+                    variant="body2"
+                    style={{ fontWeight: "bold", margin: "10px" }}
+                  >
+                    興奮
+                  </Typography>
+                )}
+                {formInput.feeling === "6" && (
+                  <Typography
+                    variant="body2"
+                    style={{ fontWeight: "bold", margin: "10px" }}
+                  >
+                    幸せ
+                  </Typography>
+                )}
+                {formInput.feeling === "7" && (
+                  <Typography
+                    variant="body2"
+                    style={{ fontWeight: "bold", margin: "10px" }}
+                  >
+                    愛されている
+                  </Typography>
+                )}
+                {formInput.feeling === "8" && (
+                  <Typography
+                    variant="body2"
+                    style={{ fontWeight: "bold", margin: "10px" }}
+                  >
+                    疲れた
+                  </Typography>
+                )}
+                {formInput.feeling === "9" && (
+                  <Typography
+                    variant="body2"
+                    style={{ fontWeight: "bold", margin: "10px" }}
+                  >
+                    希望
+                  </Typography>
+                )}
+                {formInput.feeling === "10" && (
+                  <Typography
+                    variant="body2"
+                    style={{ fontWeight: "bold", margin: "10px" }}
+                  >
+                    平和
+                  </Typography>
+                )}
+                {formInput.feeling === "11" && (
+                  <Typography
+                    variant="body2"
+                    style={{ fontWeight: "bold", margin: "10px" }}
+                  >
+                    うつ病
+                  </Typography>
+                )}
+                {formInput.feeling === "12" && (
+                  <Typography
+                    variant="body2"
+                    style={{ fontWeight: "bold", margin: "10px" }}
+                  >
+                    寂しい
+                  </Typography>
+                )}
+                {formInput.feeling === "13" && (
+                  <Typography
+                    variant="body2"
+                    style={{ fontWeight: "bold", margin: "10px" }}
+                  >
+                    悲しい
+                  </Typography>
+                )}
+                {formInput.feeling === "14" && (
+                  <Typography
+                    variant="body2"
+                    style={{ fontWeight: "bold", margin: "10px" }}
+                  >
+                    退屈
+                  </Typography>
+                )}
+                {formInput.feeling === "15" && (
+                  <Typography
+                    variant="body2"
+                    style={{ fontWeight: "bold", margin: "10px" }}
+                  >
+                    怖い
+                  </Typography>
+                )}
+                {formInput.feeling === "16" && (
+                  <Typography
+                    variant="body2"
+                    style={{ fontWeight: "bold", margin: "10px" }}
+                  >
+                    疲れた
+                  </Typography>
+                )}
+                {formInput.feeling === "17" && (
+                  <Typography
+                    variant="body2"
+                    style={{ fontWeight: "bold", margin: "10px" }}
+                  >
+                    パワフル
+                  </Typography>
+                )}
+                {formInput.feeling === "18" && (
+                  <Typography
+                    variant="body2"
+                    style={{ fontWeight: "bold", margin: "10px" }}
+                  >
+                    快適
                   </Typography>
                 )}
 
@@ -461,7 +581,7 @@ export default function Contact() {
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
                   >
-                    シトラス
+                    スッキリ
                   </Typography>
                 )}
                 {formInput.feeling === "2" && (
@@ -469,7 +589,7 @@ export default function Contact() {
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
                   >
-                    アクア
+                    あまい
                   </Typography>
                 )}
                 {formInput.feeling === "3" && (
@@ -477,47 +597,7 @@ export default function Contact() {
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
                   >
-                    グリーン
-                  </Typography>
-                )}
-                {formInput.feeling === "4" && (
-                  <Typography
-                    variant="body2"
-                    style={{ fontWeight: "bold", margin: "10px" }}
-                  >
-                    フルーティ
-                  </Typography>
-                )}
-                {formInput.feeling === "5" && (
-                  <Typography
-                    variant="body2"
-                    style={{ fontWeight: "bold", margin: "10px" }}
-                  >
-                    フローラル
-                  </Typography>
-                )}
-                {formInput.feeling === "6" && (
-                  <Typography
-                    variant="body2"
-                    style={{ fontWeight: "bold", margin: "10px" }}
-                  >
-                    アロマティック
-                  </Typography>
-                )}
-                {formInput.feeling === "7" && (
-                  <Typography
-                    variant="body2"
-                    style={{ fontWeight: "bold", margin: "10px" }}
-                  >
-                    オリエンタル
-                  </Typography>
-                )}
-                {formInput.feeling === "8" && (
-                  <Typography
-                    variant="body2"
-                    style={{ fontWeight: "bold", margin: "10px" }}
-                  >
-                    ウッディ
+                    芳香
                   </Typography>
                 )}
 
@@ -536,7 +616,7 @@ export default function Contact() {
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
                   >
-                    シトラス
+                    スッキリ
                   </Typography>
                 )}
                 {formInput.feeling === "2" && (
@@ -544,7 +624,7 @@ export default function Contact() {
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
                   >
-                    アクア
+                    あまい
                   </Typography>
                 )}
                 {formInput.feeling === "3" && (
@@ -552,47 +632,7 @@ export default function Contact() {
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
                   >
-                    グリーン
-                  </Typography>
-                )}
-                {formInput.feeling === "4" && (
-                  <Typography
-                    variant="body2"
-                    style={{ fontWeight: "bold", margin: "10px" }}
-                  >
-                    フルーティ
-                  </Typography>
-                )}
-                {formInput.feeling === "5" && (
-                  <Typography
-                    variant="body2"
-                    style={{ fontWeight: "bold", margin: "10px" }}
-                  >
-                    フローラル
-                  </Typography>
-                )}
-                {formInput.feeling === "6" && (
-                  <Typography
-                    variant="body2"
-                    style={{ fontWeight: "bold", margin: "10px" }}
-                  >
-                    アロマティック
-                  </Typography>
-                )}
-                {formInput.feeling === "7" && (
-                  <Typography
-                    variant="body2"
-                    style={{ fontWeight: "bold", margin: "10px" }}
-                  >
-                    オリエンタル
-                  </Typography>
-                )}
-                {formInput.feeling === "8" && (
-                  <Typography
-                    variant="body2"
-                    style={{ fontWeight: "bold", margin: "10px" }}
-                  >
-                    ウッディ
+                    芳香
                   </Typography>
                 )}
 
@@ -808,7 +848,7 @@ export default function Contact() {
                           }}
                         />
                         <Radio
-                          {...controlProps("purpule")}
+                          {...controlProps("purple")}
                           sx={{
                             color: purple[900],
                             "&.Mui-checked": {
@@ -818,7 +858,6 @@ export default function Contact() {
                         />
                       </RadioGroup>
                     </FormControl>
-                    {formInput.principleColor}
                   </div>
                 ) : null}
 
@@ -1028,7 +1067,7 @@ export default function Contact() {
                           }}
                         />
                         <Radio
-                          {...controlProps("grey")}
+                          {...controlProps("gray")}
                           sx={{
                             color: grey[600],
                             "&.Mui-checked": {
@@ -1090,7 +1129,13 @@ export default function Contact() {
                   </div>
                 ) : null}
 
-                {activeStep === 6 ? (
+                {/* red&negative */}
+                {formInput.principleColor === "red" &&
+                Number(formInput.principleReason) +
+                  Number(formInput.neutralReason) +
+                  Number(formInput.nonReason) <
+                  2 &&
+                activeStep === 6 ? (
                   <div style={{ textAlign: "center" }}>
                     <FormControl>
                       <FormLabel
@@ -1118,17 +1163,455 @@ export default function Contact() {
                         <FormControlLabel
                           value="1"
                           control={<Radio />}
-                          label="リラックス"
+                          label="怒り"
                         />
                         <FormControlLabel
                           value="2"
                           control={<Radio />}
-                          label="Cheer up"
+                          label="悲しい"
                         />
+                      </RadioGroup>
+                    </FormControl>
+                  </div>
+                ) : null}
+
+                {/* red&positive */}
+                {formInput.principleColor === "red" &&
+                Number(formInput.principleReason) +
+                  Number(formInput.neutralReason) +
+                  Number(formInput.nonReason) >=
+                  2 &&
+                activeStep === 6 ? (
+                  <div style={{ textAlign: "center" }}>
+                    <FormControl>
+                      <FormLabel
+                        id="demo-controlled-radio-buttons-group"
+                        style={{
+                          marginBottom: "30px",
+                          fontWeight: "bold",
+                          color: "#1976D2",
+                        }}
+                      >
+                        匂いを使って、どんな気分にしたいですか？
+                      </FormLabel>
+                      <RadioGroup
+                        aria-labelledby="demo-controlled-radio-buttons-group"
+                        name="controlled-radio-buttons-group"
+                        value={formInput.feeling}
+                        onChange={(e) =>
+                          updateFormInput({
+                            ...formInput,
+                            feeling: e.target.value,
+                          })
+                        }
+                        style={{ marginLeft: "29%" }}
+                      >
                         <FormControlLabel
                           value="3"
                           control={<Radio />}
-                          label="Amplification"
+                          label="穏やか"
+                        />
+                        <FormControlLabel
+                          value="4"
+                          control={<Radio />}
+                          label="エネルギッシュ"
+                        />
+                        <FormControlLabel
+                          value="5"
+                          control={<Radio />}
+                          label="興奮"
+                        />
+                        <FormControlLabel
+                          value="6"
+                          control={<Radio />}
+                          label="幸せ"
+                        />
+                        <FormControlLabel
+                          value="7"
+                          control={<Radio />}
+                          label="愛されている"
+                        />
+                      </RadioGroup>
+                    </FormControl>
+                  </div>
+                ) : null}
+
+                {/* yellow&negative */}
+                {formInput.principleColor === "yellow" &&
+                Number(formInput.principleReason) +
+                  Number(formInput.neutralReason) +
+                  Number(formInput.nonReason) <
+                  2 &&
+                activeStep === 6 ? (
+                  <div style={{ textAlign: "center" }}>
+                    <FormControl>
+                      <FormLabel
+                        id="demo-controlled-radio-buttons-group"
+                        style={{
+                          marginBottom: "30px",
+                          fontWeight: "bold",
+                          color: "#1976D2",
+                        }}
+                      >
+                        匂いを使って、どんな気分にしたいですか？
+                      </FormLabel>
+                      <RadioGroup
+                        aria-labelledby="demo-controlled-radio-buttons-group"
+                        name="controlled-radio-buttons-group"
+                        value={formInput.feeling}
+                        onChange={(e) =>
+                          updateFormInput({
+                            ...formInput,
+                            feeling: e.target.value,
+                          })
+                        }
+                        style={{ marginLeft: "29%" }}
+                      >
+                        <FormControlLabel
+                          value="8"
+                          control={<Radio />}
+                          label="疲れた"
+                        />
+                      </RadioGroup>
+                    </FormControl>
+                  </div>
+                ) : null}
+
+                {/* yellow&positive */}
+                {formInput.principleColor === "yellow" &&
+                Number(formInput.principleReason) +
+                  Number(formInput.neutralReason) +
+                  Number(formInput.nonReason) >=
+                  2 &&
+                activeStep === 6 ? (
+                  <div style={{ textAlign: "center" }}>
+                    <FormControl>
+                      <FormLabel
+                        id="demo-controlled-radio-buttons-group"
+                        style={{
+                          marginBottom: "30px",
+                          fontWeight: "bold",
+                          color: "#1976D2",
+                        }}
+                      >
+                        匂いを使って、どんな気分にしたいですか？
+                      </FormLabel>
+                      <RadioGroup
+                        aria-labelledby="demo-controlled-radio-buttons-group"
+                        name="controlled-radio-buttons-group"
+                        value={formInput.feeling}
+                        onChange={(e) =>
+                          updateFormInput({
+                            ...formInput,
+                            feeling: e.target.value,
+                          })
+                        }
+                        style={{ marginLeft: "29%" }}
+                      >
+                        <FormControlLabel
+                          value="4"
+                          control={<Radio />}
+                          label="エネルギッシュ"
+                        />
+                        <FormControlLabel
+                          value="5"
+                          control={<Radio />}
+                          label="興奮"
+                        />
+                        <FormControlLabel
+                          value="6"
+                          control={<Radio />}
+                          label="幸せ"
+                        />
+                      </RadioGroup>
+                    </FormControl>
+                  </div>
+                ) : null}
+
+                {/* green&positive */}
+                {formInput.principleColor === "green" &&
+                Number(formInput.principleReason) +
+                  Number(formInput.neutralReason) +
+                  Number(formInput.nonReason) >=
+                  2 &&
+                activeStep === 6 ? (
+                  <div style={{ textAlign: "center" }}>
+                    <FormControl>
+                      <FormLabel
+                        id="demo-controlled-radio-buttons-group"
+                        style={{
+                          marginBottom: "30px",
+                          fontWeight: "bold",
+                          color: "#1976D2",
+                        }}
+                      >
+                        匂いを使って、どんな気分にしたいですか？
+                      </FormLabel>
+                      <RadioGroup
+                        aria-labelledby="demo-controlled-radio-buttons-group"
+                        name="controlled-radio-buttons-group"
+                        value={formInput.feeling}
+                        onChange={(e) =>
+                          updateFormInput({
+                            ...formInput,
+                            feeling: e.target.value,
+                          })
+                        }
+                        style={{ marginLeft: "29%" }}
+                      >
+                        <FormControlLabel
+                          value="3"
+                          control={<Radio />}
+                          label="穏やか"
+                        />
+                        <FormControlLabel
+                          value="18"
+                          control={<Radio />}
+                          label="快適"
+                        />
+                        <FormControlLabel
+                          value="5"
+                          control={<Radio />}
+                          label="興奮"
+                        />
+                        <FormControlLabel
+                          value="6"
+                          control={<Radio />}
+                          label="幸せ"
+                        />
+                        <FormControlLabel
+                          value="9"
+                          control={<Radio />}
+                          label="希望"
+                        />
+                        <FormControlLabel
+                          value="10"
+                          control={<Radio />}
+                          label="平和"
+                        />
+                      </RadioGroup>
+                    </FormControl>
+                  </div>
+                ) : null}
+
+                {/* blue&negative */}
+                {formInput.principleColor === "blue" &&
+                Number(formInput.principleReason) +
+                  Number(formInput.neutralReason) +
+                  Number(formInput.nonReason) <
+                  2 &&
+                activeStep === 6 ? (
+                  <div style={{ textAlign: "center" }}>
+                    <FormControl>
+                      <FormLabel
+                        id="demo-controlled-radio-buttons-group"
+                        style={{
+                          marginBottom: "30px",
+                          fontWeight: "bold",
+                          color: "#1976D2",
+                        }}
+                      >
+                        匂いを使って、どんな気分にしたいですか？
+                      </FormLabel>
+                      <RadioGroup
+                        aria-labelledby="demo-controlled-radio-buttons-group"
+                        name="controlled-radio-buttons-group"
+                        value={formInput.feeling}
+                        onChange={(e) =>
+                          updateFormInput({
+                            ...formInput,
+                            feeling: e.target.value,
+                          })
+                        }
+                        style={{ marginLeft: "29%" }}
+                      >
+                        <FormControlLabel
+                          value="11"
+                          control={<Radio />}
+                          label="うつ病"
+                        />
+                        <FormControlLabel
+                          value="12"
+                          control={<Radio />}
+                          label="寂しい"
+                        />
+                        <FormControlLabel
+                          value="13"
+                          control={<Radio />}
+                          label="悲しい"
+                        />
+                      </RadioGroup>
+                    </FormControl>
+                  </div>
+                ) : null}
+
+                {/* blue&positive */}
+                {formInput.principleColor === "blue" &&
+                Number(formInput.principleReason) +
+                  Number(formInput.neutralReason) +
+                  Number(formInput.nonReason) >=
+                  2 &&
+                activeStep === 6 ? (
+                  <div style={{ textAlign: "center" }}>
+                    <FormControl>
+                      <FormLabel
+                        id="demo-controlled-radio-buttons-group"
+                        style={{
+                          marginBottom: "30px",
+                          fontWeight: "bold",
+                          color: "#1976D2",
+                        }}
+                      >
+                        匂いを使って、どんな気分にしたいですか？
+                      </FormLabel>
+                      <RadioGroup
+                        aria-labelledby="demo-controlled-radio-buttons-group"
+                        name="controlled-radio-buttons-group"
+                        value={formInput.feeling}
+                        onChange={(e) =>
+                          updateFormInput({
+                            ...formInput,
+                            feeling: e.target.value,
+                          })
+                        }
+                        style={{ marginLeft: "29%" }}
+                      >
+                        <FormControlLabel
+                          value="3"
+                          control={<Radio />}
+                          label="穏やか"
+                        />
+                        <FormControlLabel
+                          value="18"
+                          control={<Radio />}
+                          label="快適"
+                        />
+                        <FormControlLabel
+                          value="6"
+                          control={<Radio />}
+                          label="幸せ"
+                        />
+                        <FormControlLabel
+                          value="10"
+                          control={<Radio />}
+                          label="平和"
+                        />
+                      </RadioGroup>
+                    </FormControl>
+                  </div>
+                ) : null}
+
+                {/* purpule&negative */}
+                {formInput.principleColor === "purpule" &&
+                Number(formInput.principleReason) +
+                  Number(formInput.neutralReason) +
+                  Number(formInput.nonReason) <
+                  2 &&
+                activeStep === 6 ? (
+                  <div style={{ textAlign: "center" }}>
+                    <FormControl>
+                      <FormLabel
+                        id="demo-controlled-radio-buttons-group"
+                        style={{
+                          marginBottom: "30px",
+                          fontWeight: "bold",
+                          color: "#1976D2",
+                        }}
+                      >
+                        匂いを使って、どんな気分にしたいですか？
+                      </FormLabel>
+                      <RadioGroup
+                        aria-labelledby="demo-controlled-radio-buttons-group"
+                        name="controlled-radio-buttons-group"
+                        value={formInput.feeling}
+                        onChange={(e) =>
+                          updateFormInput({
+                            ...formInput,
+                            feeling: e.target.value,
+                          })
+                        }
+                        style={{ marginLeft: "29%" }}
+                      >
+                        <FormControlLabel
+                          value="14"
+                          control={<Radio />}
+                          label="退屈"
+                        />
+                        <FormControlLabel
+                          value="15"
+                          control={<Radio />}
+                          label="怖い"
+                        />
+                        <FormControlLabel
+                          value="13"
+                          control={<Radio />}
+                          label="悲しい"
+                        />
+                        <FormControlLabel
+                          value="16"
+                          control={<Radio />}
+                          label="疲れた"
+                        />
+                      </RadioGroup>
+                    </FormControl>
+                  </div>
+                ) : null}
+
+                {/* purpule&positive */}
+                {formInput.principleColor === "purpule" &&
+                Number(formInput.principleReason) +
+                  Number(formInput.neutralReason) +
+                  Number(formInput.nonReason) >=
+                  2 &&
+                activeStep === 6 ? (
+                  <div style={{ textAlign: "center" }}>
+                    <FormControl>
+                      <FormLabel
+                        id="demo-controlled-radio-buttons-group"
+                        style={{
+                          marginBottom: "30px",
+                          fontWeight: "bold",
+                          color: "#1976D2",
+                        }}
+                      >
+                        匂いを使って、どんな気分にしたいですか？
+                      </FormLabel>
+                      <RadioGroup
+                        aria-labelledby="demo-controlled-radio-buttons-group"
+                        name="controlled-radio-buttons-group"
+                        value={formInput.feeling}
+                        onChange={(e) =>
+                          updateFormInput({
+                            ...formInput,
+                            feeling: e.target.value,
+                          })
+                        }
+                        style={{ marginLeft: "29%" }}
+                      >
+                        <FormControlLabel
+                          value="3"
+                          control={<Radio />}
+                          label="穏やか"
+                        />
+                        <FormControlLabel
+                          value="18"
+                          control={<Radio />}
+                          label="快適"
+                        />
+                        <FormControlLabel
+                          value="5"
+                          control={<Radio />}
+                          label="興奮"
+                        />
+                        <FormControlLabel
+                          value="6"
+                          control={<Radio />}
+                          label="幸せ"
+                        />
+                        <FormControlLabel
+                          value="17"
+                          control={<Radio />}
+                          label="パワフル"
                         />
                       </RadioGroup>
                     </FormControl>
@@ -1267,42 +1750,17 @@ export default function Contact() {
                         <FormControlLabel
                           value="1"
                           control={<Radio />}
-                          label="シトラス"
+                          label="スッキリ"
                         />
                         <FormControlLabel
                           value="2"
                           control={<Radio />}
-                          label="アクア"
+                          label="あまい"
                         />
                         <FormControlLabel
                           value="3"
                           control={<Radio />}
-                          label="グリーン"
-                        />
-                        <FormControlLabel
-                          value="4"
-                          control={<Radio />}
-                          label="フルーティ"
-                        />
-                        <FormControlLabel
-                          value="5"
-                          control={<Radio />}
-                          label="フローラル"
-                        />
-                        <FormControlLabel
-                          value="6"
-                          control={<Radio />}
-                          label="アロマティック"
-                        />
-                        <FormControlLabel
-                          value="7"
-                          control={<Radio />}
-                          label="オリエンタル"
-                        />
-                        <FormControlLabel
-                          value="8"
-                          control={<Radio />}
-                          label="ウッディ"
+                          label="芳香"
                         />
                       </RadioGroup>
                     </FormControl>
@@ -1337,42 +1795,17 @@ export default function Contact() {
                         <FormControlLabel
                           value="1"
                           control={<Radio />}
-                          label="シトラス"
+                          label="スッキリ"
                         />
                         <FormControlLabel
                           value="2"
                           control={<Radio />}
-                          label="アクア"
+                          label="あまい"
                         />
                         <FormControlLabel
                           value="3"
                           control={<Radio />}
-                          label="グリーン"
-                        />
-                        <FormControlLabel
-                          value="4"
-                          control={<Radio />}
-                          label="フルーティ"
-                        />
-                        <FormControlLabel
-                          value="5"
-                          control={<Radio />}
-                          label="フローラル"
-                        />
-                        <FormControlLabel
-                          value="6"
-                          control={<Radio />}
-                          label="アロマティック"
-                        />
-                        <FormControlLabel
-                          value="7"
-                          control={<Radio />}
-                          label="オリエンタル"
-                        />
-                        <FormControlLabel
-                          value="8"
-                          control={<Radio />}
-                          label="ウッディ"
+                          label="芳香"
                         />
                       </RadioGroup>
                     </FormControl>
