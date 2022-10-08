@@ -46,7 +46,7 @@ const steps = [
   "Color",
   "Reason",
   "Feeling",
-  "When",
+  "Where",
   "Dislike",
   "Like",
   "Weight",
@@ -80,7 +80,7 @@ export default function Contact() {
     nonColored: "",
     nonReason: "",
     feeling: "",
-    when: "",
+    where: "",
     dislike: "",
     like: "",
     weight: "",
@@ -108,7 +108,7 @@ export default function Contact() {
       nonColored: formInput.nonColored,
       nonReason: formInput.nonReason,
       feeling: formInput.feeling,
-      when: formInput.when,
+      where: formInput.where,
       dislike: formInput.dislike,
       like: formInput.like,
       weight: formInput.weight,
@@ -376,7 +376,7 @@ export default function Contact() {
                     margin: "10px",
                   }}
                 >
-                  匂いを使って、どんな気分にしたいですか？
+                  一番近い状態はどれですか？
                 </Typography>
                 {formInput.feeling === "1" && (
                   <Typography
@@ -531,38 +531,38 @@ export default function Contact() {
                     margin: "10px",
                   }}
                 >
-                  いつ香水を纏いたいですか？
+                  どこで使いたいですか？
                 </Typography>
-                {formInput.feeling === "1" && (
+                {formInput.where === "1" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
                   >
-                    起きてすぐ
+                    寝室
                   </Typography>
                 )}
-                {formInput.feeling === "2" && (
+                {formInput.where === "2" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
                   >
-                    デイタイム
+                    リビング
                   </Typography>
                 )}
-                {formInput.feeling === "3" && (
+                {formInput.where === "3" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
                   >
-                    特別な時
+                    仕事場
                   </Typography>
                 )}
-                {formInput.feeling === "4" && (
+                {formInput.where === "4" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
                   >
-                    夕方以降
+                    玄関
                   </Typography>
                 )}
 
@@ -576,7 +576,7 @@ export default function Contact() {
                 >
                   苦手な香りを教えてください
                 </Typography>
-                {formInput.feeling === "1" && (
+                {formInput.dislike === "1" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -584,7 +584,7 @@ export default function Contact() {
                     スッキリ
                   </Typography>
                 )}
-                {formInput.feeling === "2" && (
+                {formInput.dislike === "2" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -592,7 +592,7 @@ export default function Contact() {
                     あまい
                   </Typography>
                 )}
-                {formInput.feeling === "3" && (
+                {formInput.dislike === "3" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -611,7 +611,7 @@ export default function Contact() {
                 >
                   好きなイメージの香りを教えてください
                 </Typography>
-                {formInput.feeling === "1" && (
+                {formInput.like === "1" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -619,7 +619,7 @@ export default function Contact() {
                     スッキリ
                   </Typography>
                 )}
-                {formInput.feeling === "2" && (
+                {formInput.like === "2" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -627,7 +627,7 @@ export default function Contact() {
                     あまい
                   </Typography>
                 )}
-                {formInput.feeling === "3" && (
+                {formInput.like === "3" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -646,7 +646,7 @@ export default function Contact() {
                 >
                   好みの匂いの重さを教えてください
                 </Typography>
-                {formInput.reason === "1" && (
+                {formInput.weight === "1" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -654,7 +654,7 @@ export default function Contact() {
                     すごく軽やか
                   </Typography>
                 )}
-                {formInput.reason === "2" && (
+                {formInput.weight === "2" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -662,7 +662,7 @@ export default function Contact() {
                     軽やか
                   </Typography>
                 )}
-                {formInput.reason === "3" && (
+                {formInput.weight === "3" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -670,7 +670,7 @@ export default function Contact() {
                     重たい
                   </Typography>
                 )}
-                {formInput.reason === "4" && (
+                {formInput.weight === "4" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -689,7 +689,7 @@ export default function Contact() {
                 >
                   好みの匂いの強さを教えてください
                 </Typography>
-                {formInput.reason === "1" && (
+                {formInput.strong === "1" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -697,7 +697,7 @@ export default function Contact() {
                     すごくほんわか
                   </Typography>
                 )}
-                {formInput.reason === "2" && (
+                {formInput.strong === "2" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -705,7 +705,7 @@ export default function Contact() {
                     ほんわか
                   </Typography>
                 )}
-                {formInput.reason === "3" && (
+                {formInput.strong === "3" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -713,7 +713,7 @@ export default function Contact() {
                     強め
                   </Typography>
                 )}
-                {formInput.reason === "4" && (
+                {formInput.strong === "4" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -732,7 +732,7 @@ export default function Contact() {
                 >
                   あなたにとって香水とは?
                 </Typography>
-                {formInput.reason === "1" && (
+                {formInput.your === "1" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -740,7 +740,7 @@ export default function Contact() {
                     自然を感じるもの
                   </Typography>
                 )}
-                {formInput.reason === "2" && (
+                {formInput.your === "2" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -748,7 +748,7 @@ export default function Contact() {
                     アート
                   </Typography>
                 )}
-                {formInput.reason === "3" && (
+                {formInput.your === "3" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -756,7 +756,7 @@ export default function Contact() {
                     誰かを魅了するもの
                   </Typography>
                 )}
-                {formInput.reason === "4" && (
+                {formInput.your === "4" && (
                   <Typography
                     variant="body2"
                     style={{ fontWeight: "bold", margin: "10px" }}
@@ -1146,7 +1146,7 @@ export default function Contact() {
                           color: "#1976D2",
                         }}
                       >
-                        匂いを使って、どんな気分にしたいですか？
+                        一番近い状態はどれですか？
                       </FormLabel>
                       <RadioGroup
                         aria-labelledby="demo-controlled-radio-buttons-group"
@@ -1192,7 +1192,7 @@ export default function Contact() {
                           color: "#1976D2",
                         }}
                       >
-                        匂いを使って、どんな気分にしたいですか？
+                        一番近い状態はどれですか？
                       </FormLabel>
                       <RadioGroup
                         aria-labelledby="demo-controlled-radio-buttons-group"
@@ -1253,7 +1253,7 @@ export default function Contact() {
                           color: "#1976D2",
                         }}
                       >
-                        匂いを使って、どんな気分にしたいですか？
+                        一番近い状態はどれですか？
                       </FormLabel>
                       <RadioGroup
                         aria-labelledby="demo-controlled-radio-buttons-group"
@@ -1294,7 +1294,7 @@ export default function Contact() {
                           color: "#1976D2",
                         }}
                       >
-                        匂いを使って、どんな気分にしたいですか？
+                        一番近い状態はどれですか？
                       </FormLabel>
                       <RadioGroup
                         aria-labelledby="demo-controlled-radio-buttons-group"
@@ -1345,7 +1345,7 @@ export default function Contact() {
                           color: "#1976D2",
                         }}
                       >
-                        匂いを使って、どんな気分にしたいですか？
+                        一番近い状態はどれですか？
                       </FormLabel>
                       <RadioGroup
                         aria-labelledby="demo-controlled-radio-buttons-group"
@@ -1411,7 +1411,7 @@ export default function Contact() {
                           color: "#1976D2",
                         }}
                       >
-                        匂いを使って、どんな気分にしたいですか？
+                        一番近い状態はどれですか？
                       </FormLabel>
                       <RadioGroup
                         aria-labelledby="demo-controlled-radio-buttons-group"
@@ -1462,7 +1462,7 @@ export default function Contact() {
                           color: "#1976D2",
                         }}
                       >
-                        匂いを使って、どんな気分にしたいですか？
+                        一番近い状態はどれですか？
                       </FormLabel>
                       <RadioGroup
                         aria-labelledby="demo-controlled-radio-buttons-group"
@@ -1518,7 +1518,7 @@ export default function Contact() {
                           color: "#1976D2",
                         }}
                       >
-                        匂いを使って、どんな気分にしたいですか？
+                        一番近い状態はどれですか？
                       </FormLabel>
                       <RadioGroup
                         aria-labelledby="demo-controlled-radio-buttons-group"
@@ -1574,7 +1574,7 @@ export default function Contact() {
                           color: "#1976D2",
                         }}
                       >
-                        匂いを使って、どんな気分にしたいですか？
+                        一番近い状態はどれですか？
                       </FormLabel>
                       <RadioGroup
                         aria-labelledby="demo-controlled-radio-buttons-group"
@@ -1629,29 +1629,26 @@ export default function Contact() {
                           color: "#1976D2",
                         }}
                       >
-                        いつ香水を纏いたいですか？
+                        どこで使いたいですか？
                       </FormLabel>
                       <RadioGroup
-                        value={formInput.when}
+                        value={formInput.where}
                         onChange={(e) =>
                           updateFormInput({
                             ...formInput,
-                            when: e.target.value,
+                            where: e.target.value,
                           })
                         }
                         sx={{ height: 1 }}
                       >
                         <ImageList cols={4}>
-                          <Tooltip title="朝起きてすぐ">
+                          <Tooltip title="寝室">
                             <ImageListItem variant="woven">
                               <Radio
                                 value="1"
                                 icon={
                                   <ImageListItem>
-                                    <img
-                                      src="./img/q14/morning.png"
-                                      alt="logo"
-                                    />
+                                    <img src="./img/q14/sleep.jpg" alt="logo" />
                                   </ImageListItem>
                                 }
                                 checkedIcon={
@@ -1662,31 +1659,14 @@ export default function Contact() {
                               />
                             </ImageListItem>
                           </Tooltip>
-                          <Tooltip title="デイタイム">
+                          <Tooltip title="リビング">
                             <ImageListItem variant="woven">
                               <Radio
                                 value="2"
                                 icon={
                                   <ImageListItem>
-                                    <img src="./img/q14/day.png" alt="logo" />
-                                  </ImageListItem>
-                                }
-                                checkedIcon={
-                                  <ImageListItem sx={{ border: 4 }}>
-                                    <img src="./img/check.png" alt="logo" />
-                                  </ImageListItem>
-                                }
-                              />
-                            </ImageListItem>
-                          </Tooltip>
-                          <Tooltip title="特別な時">
-                            <ImageListItem variant="woven">
-                              <Radio
-                                value="3"
-                                icon={
-                                  <ImageListItem>
                                     <img
-                                      src="./img/q14/special.png"
+                                      src="./img/q14/living.jpg"
                                       alt="logo"
                                     />
                                   </ImageListItem>
@@ -1699,13 +1679,33 @@ export default function Contact() {
                               />
                             </ImageListItem>
                           </Tooltip>
-                          <Tooltip title="夕方以降">
+                          <Tooltip title="仕事場">
+                            <ImageListItem variant="woven">
+                              <Radio
+                                value="3"
+                                icon={
+                                  <ImageListItem>
+                                    <img src="./img/q14/work.jpg" alt="logo" />
+                                  </ImageListItem>
+                                }
+                                checkedIcon={
+                                  <ImageListItem sx={{ border: 4 }}>
+                                    <img src="./img/check.png" alt="logo" />
+                                  </ImageListItem>
+                                }
+                              />
+                            </ImageListItem>
+                          </Tooltip>
+                          <Tooltip title="玄関">
                             <ImageListItem variant="woven">
                               <Radio
                                 value="4"
                                 icon={
                                   <ImageListItem>
-                                    <img src="./img/q14/night.png" alt="logo" />
+                                    <img
+                                      src="./img/q14/entrance.jpg"
+                                      alt="logo"
+                                    />
                                   </ImageListItem>
                                 }
                                 checkedIcon={
@@ -2040,7 +2040,7 @@ export default function Contact() {
                       (activeStep === 4 && formInput.nonColored === "") ||
                       (activeStep === 5 && formInput.nonReason === "") ||
                       (activeStep === 6 && formInput.feeling === "") ||
-                      (activeStep === 7 && formInput.when === "") ||
+                      (activeStep === 7 && formInput.where === "") ||
                       (activeStep === 8 && formInput.dislike === "") ||
                       (activeStep === 9 && formInput.like === "") ||
                       (activeStep === 10 && formInput.weight === "") ||
